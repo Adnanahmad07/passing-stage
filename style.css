@@ -95,6 +95,8 @@ footer {
     color: rgb(246, 245, 245);
     font-size: 18px;
     font-family: arial;
+    margin-left:1rem;
+    margin-right:1rem;
 
 }
 
@@ -138,7 +140,7 @@ footer {
     background: rgb(255, 255, 255);
     position: fixed;
     right: -300px;
-    bottom: 60px;
+    bottom: 100px;
     display: flex;
     flex-direction: column;
     padding: 10px;
