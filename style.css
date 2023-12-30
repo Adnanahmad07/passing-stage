@@ -140,7 +140,7 @@ footer {
     background: rgb(255, 255, 255);
     position: fixed;
     right: -300px;
-    bottom: 100px;
+    bottom: 60px;
     display: flex;
     flex-direction: column;
     padding: 10px;
