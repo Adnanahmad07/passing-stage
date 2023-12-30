@@ -1,0 +1,238 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(255, 255, 169);
+    height: 100vh;
+    position: relative;
+}
+
+.maind {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+h1 {
+    font-family: verdana;
+    font-size: 22px;
+
+}
+
+label {
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.266);
+    box-shadow: 0 0 5px black;
+    border-radius: 12px;
+    border: transparent;
+    transition: all ease-out 0.25s;
+
+}
+
+.sdiv:hover {
+    background: rgba(255, 255, 255, 0.266);
+}
+
+button {
+    padding: 4px 16px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    font-family: georgia;
+    border-radius: 4px;
+    background: transparent;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background: black;
+    color: white;
+
+}
+
+button:active {
+    opacity: 0.4;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background: transparent;
+}
+
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    background-color: rgba(30, 30, 30, 0.922);
+
+
+
+}
+
+.footer {
+
+    padding: 10px 0;
+    color: rgb(246, 245, 245);
+    font-size: 18px;
+    font-family: arial;
+
+}
+
+.uppar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btnposition {
+    position: absolute;
+    right: 33px;
+    bottom: 60px;
+
+}
+
+
+
+
+.sidedev {
+    width: 180px;
+    height: 300px;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    right: -300px;
+    bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.368);
+    transition: 0.7s;
+
+
+
+}
+
+.sidedev div button {
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.sidedev div button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family: arial;
+    display: flex;
+    align-items: center;
+    vertical-align: bottom;
+
+}
+
+.sidedev div button a img {
+    margin-right: 10px;
+}
+
+
+.closebtn {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+}
+
+.closebtn:hover {
+    background-color: transparent;
+    color: rgb(239, 0, 0);
+
+}
+
+.sidedev div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
+
+}
+
+.email {
+    margin-top: 1rem;
+    border: 1px solid #4285f4;
+
+}
+
+.email:hover {
+    background-color: #4285f4;
+
+}
+
+
+.Github {
+    border: 1px solid #f4b400;
+}
+
+.Github:hover {
+    background-color: #f4b400;
+}
+
+.Instagram {
+    border: 1px solid #db4437;
+}
+
+.Instagram:hover {
+    background-color: #db4437;
+}
+
+
+.WhatsApp {
+    border: 1px solid #0f9d58;
+}
+
+.WhatsApp:hover {
+    background-color: #0f9d58;
+}

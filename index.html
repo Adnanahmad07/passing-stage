@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>passing catagery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="uppar">
+
+        <div class="maind">
+            <h1>Check your Passing Catagery</h1>
+
+            <div class="sdiv">
+
+                <label for="">
+                    Enter your marks
+
+                </label>
+                <input type="text" id="inputtxt" placeholder="enter here">
+
+
+                <button id="mybtn">check</button>
+
+                <label id="positon">wait wait &#128513;</label>
+            </div>
+        </div>
+
+
+
+
+
+        <footer>
+            <div class="footer">
+                this program create by adnanahmad07
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="btnposition">
+        <button id="sidebtn">Social media</button>
+    </div>
+
+
+
+
+
+
+
+    <div class="sidedev" id="sidebarmenu">
+
+        <button class="closebtn" id="closebtn">X</button>
+
+
+        <div>
+
+            <button class="email">
+                <a href="https://mail.google.com/mail/u/0/#inbox">
+                    <img src="imeges/icons8-email-50.png" alt="email" width="25px">
+                    Email
+                </a>
+            </button>
+
+
+            <button class="Github">
+                <a href="https://github.com/Adnanahmad07">
+                    <img src="imeges/icons8-github-50.png" alt="email" width="25px">
+                    Github
+                </a>
+            </button>
+
+
+
+            <button class="Instagram">
+                <a href="https://www.instagram.com/adnan_ahmad_313/">
+                    <img src="imeges/icons8-instagram-50.png" alt="email" width="25px">
+                    Instagram
+                </a>
+            </button>
+
+
+
+            <button class="WhatsApp">
+                <a href="https://wa.me/919356668159">
+                    <img src="imeges/icons8-whatsapp-50.png" alt="email" width="25px">
+                    WhatsApp
+                </a>
+            </button>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <script>
+
+
+
+
+
+
+
+
+
+        // code for social media button 
+        document.getElementById("sidebtn").onclick = () => {
+
+            document.getElementById("sidebarmenu").style.right = "30px";
+
+
+
+
+        }
+
+        document.getElementById("closebtn").onclick = () => {
+            document.getElementById("sidebarmenu").style.right = "-300px";
+        }
+
+
+
+
+
+
+
+        document.getElementById("mybtn").onclick = () => {
+
+            let value = document.getElementById("inputtxt").value;
+            value = Number(value);
+
+
+
+
+            switch (true) {
+                case value >= 90:
+                    document.getElementById("positon").textContent = " your in merrid list";
+                    break;
+
+                case value >= 70:
+                    document.getElementById("positon").textContent = "you are paefoum better ";
+                    break;
+
+                case value >= 60:
+                    document.getElementById("positon").textContent = "your perfoumees is good";
+                    break;
+
+                case value >= 40:
+                    document.getElementById("positon").textContent = "pass need to improvment";
+                    break;
+
+
+
+                case value <= 35:
+                    document.getElementById("positon").textContent = "sad but you fail";
+                    break;
+
+                default:
+                    document.getElementById("positon").textContent = "wrong word or numbar"
+
+
+
+
+
+            }
+
+
+
+        }
+    </script>
+</body>
+
+</html>
